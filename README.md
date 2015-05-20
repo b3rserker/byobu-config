@@ -12,7 +12,9 @@ Konsole's config must be tweaked before use (keytab file attached, move that fil
 
 # Why?
 xterm, Konsole, gnome-terminal are not suitable for productive daily-use
+
 screen is crazy and user-unfriendly
+
 tmux is almost good, but doesn't support Fx keys, and yes we want that
 
 # Why??
@@ -24,9 +26,11 @@ What works in this config (exept all byobu features)
 Global:
 - All byobu advantages are there, but shortcuts slightly modified
 - This is designed by LAZY PERSON for LAZY PEOPLE!
+
 Scroll:
 - Scroll thru ALT+PG(UP|DOWN) with automatic vim-visual-mode on on keypress
 - Scroll with mouse too, whatever
+
 Panes:
 - Switching 2D panes thru ALT+arrows
 - Resizing panes thru ALT+CTRL+SHIFT+arrows
@@ -34,12 +38,15 @@ Panes:
 - Create horizontal SHIFT+F2
 - Destroy CTRL+F2
 - Use SHIFT+F11 for zoom
+
 Clipboard:
 - Connected local X clipboard with byobu shortcuts
 - CTRL+ALT+(C|V) is global (X) clipboard
 - Middle mouse (OR double touchpad) click is local (byobu) clipboard
+
 Sessions:
 - Tmux-restore plugin used for this - CTRL+A+(S|R) - Store/Restore session
+
 Konsole compatibility:
 - Why still konsole on top? U don't wanna know.
 - For compatibility keytab file is attached
