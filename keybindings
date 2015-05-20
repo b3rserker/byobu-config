@@ -1,0 +1,6 @@
+source $BYOBU_PREFIX/share/byobu/keybindings/common
+
+register p "^[[5~"
+bindkey "^[[5;5~" eval 'msgwait 0' 'msgminwait 0' 'copy' 'process p' 'msgwait 1' 'echo "Byobu scrollback mode (alt-pgup / alt-pgdown)"' # alt-pageup | scrollback 
+register n "^[[6~"
+bindkey "^[[6;5~" eval 'msgwait 0' 'msgminwait 0' 'copy' 'process n' 'msgwait 1' 'echo "Byobu scrollback mode (alt-pgup / alt-pgdown)"' # alt-pagedn | scrollback
