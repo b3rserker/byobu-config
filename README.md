@@ -18,7 +18,7 @@ screen is crazy and user-unfriendly
 tmux is almost good, but doesn't support Fx keys, and yes we want that
 
 # Why??
-I am sick of using retarded static-like terminal emulators with different behaviours, little 
+I am sick of using retarded static-like terminal emulators with different behaviour, little 
 flexibility and complete (user|admin|devel) non-friendlyness. Now I am using this and I am almost happy.
 
 What works in this config (exept all byobu features)
