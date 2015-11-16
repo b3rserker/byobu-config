@@ -5,9 +5,9 @@ unbind-key -n S-C-M-Down
 unbind-key -n S-C-M-Right
 
 unbind-key -n C-a
-set -g prefix ^A
-set -g prefix2 ^A
-bind a send-prefix
+set -g prefix ^E
+set -g prefix2 ^E
+bind e send-prefix
 
 bind-key -n S-C-M-Up resize-pane -U
 bind-key -n S-C-M-Down resize-pane -D
