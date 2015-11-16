@@ -22,11 +22,18 @@ bind-key -n M-Up display-panes \; select-pane -U
 bind-key -n M-Down display-panes \; select-pane -D
 bind-key -n M-Left display-panes \; select-pane -L
 bind-key -n M-Right display-panes \; select-pane -R
+bind-key -n M-j display-panes \; select-pane -L
+bind-key -n M-k display-panes \; select-pane -R
 
 bind-key -n C-M-Left previous-window
 bind-key -n C-M-Right next-window
 bind-key -n C-M-Up switch-client -p
 bind-key -n C-M-Down switch-client -n
+
+bind-key -n C-M-j previous-window
+bind-key -n C-M-k next-window
+bind-key -n C-M-l switch-client -p
+bind-key -n C-M-h switch-client -n
 
 bind R                                      \
     move-window -r\;                        \
