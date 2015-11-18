@@ -22,19 +22,25 @@ bind-key -n M-Up display-panes \; select-pane -U
 bind-key -n M-Down display-panes \; select-pane -D
 bind-key -n M-Left display-panes \; select-pane -L
 bind-key -n M-Right display-panes \; select-pane -R
-bind-key -n M-j display-panes \; select-pane -L
-bind-key -n M-k display-panes \; select-pane -R
+bind-key -n M-n display-panes \; select-pane -L
+bind-key -n M-m display-panes \; select-pane -R
 
 bind-key -n C-M-Left previous-window
 bind-key -n C-M-Right next-window
 bind-key -n C-M-Up switch-client -p
 bind-key -n C-M-Down switch-client -n
+#bind-key C-a last-window
 
-bind-key -n C-M-j previous-window
-bind-key -n C-M-k next-window
-bind-key -n C-M-l switch-client -p
-bind-key -n C-M-h switch-client -n
+bind-key -n C-M-n previous-window
+bind-key -n C-M-m next-window
+#bind-key -n C-M-v switch-client -p
+bind-key -n C-M-b switch-client -n
 
-bind R                                      \
-    move-window -r\;                        \
-    display-message "Windows reordered..."
+#bind R move-window -r ; display-message "Windows reordered..."
+
+unbind-key C-M-Left
+unbind-key C-M-Right
+unbind-key S-Left
+unbind-key S-Right
+bind-key -n S-Left swap-window -t -1
+bind-key -n S-Right swap-window -t +1
