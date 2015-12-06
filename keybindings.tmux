@@ -27,14 +27,17 @@ bind-key -n M-m display-panes \; select-pane -R
 
 bind-key -n C-M-Left previous-window
 bind-key -n C-M-Right next-window
+
+bind-key -n C-M-Left previous-window
+bind-key -n C-M-Right next-window
 bind-key -n C-M-Up switch-client -p
 bind-key -n C-M-Down switch-client -n
 #bind-key C-a last-window
 
-bind-key -n C-M-n previous-window
-bind-key -n C-M-m next-window
+bind-key -n C-M-q previous-window
+bind-key -n C-M-e next-window
 #bind-key -n C-M-v switch-client -p
-bind-key -n C-M-b switch-client -n
+bind-key -n C-M-w switch-client -n
 bind-key l last-window
 #bind R move-window -r ; display-message "Windows reordered..."
 
