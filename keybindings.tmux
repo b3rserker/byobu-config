@@ -4,10 +4,7 @@ unbind-key -n S-C-M-Up
 unbind-key -n S-C-M-Down
 unbind-key -n S-C-M-Right
 
-unbind-key -n C-a
-set -g prefix ^E
-set -g prefix2 ^E
-bind e send-prefix
+unbind-key -n F1
 
 bind-key -n S-C-M-Up resize-pane -U
 bind-key -n S-C-M-Down resize-pane -D
@@ -47,3 +44,5 @@ unbind-key S-Left
 unbind-key S-Right
 bind-key -n S-Left swap-window -t -1
 bind-key -n S-Right swap-window -t +1
+set -g prefix F12
+unbind-key -n C-a
