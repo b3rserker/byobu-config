@@ -19,8 +19,8 @@ bind-key -n M-Up display-panes \; select-pane -U
 bind-key -n M-Down display-panes \; select-pane -D
 bind-key -n M-Left display-panes \; select-pane -L
 bind-key -n M-Right display-panes \; select-pane -R
-bind-key -n M-n display-panes \; select-pane -L
-bind-key -n M-m display-panes \; select-pane -R
+bind-key -n M-q display-panes \; select-pane -L
+bind-key -n M-e display-panes \; select-pane -R
 
 bind-key -n C-M-Left previous-window
 bind-key -n C-M-Right next-window
