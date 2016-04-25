@@ -33,7 +33,7 @@ bind-key -n C-M-Down switch-client -n
 
 bind-key -n C-M-q previous-window
 bind-key -n C-M-e next-window
-#bind-key -n C-M-v switch-client -p
+bind-key -n C-M-s switch-client -p
 bind-key -n C-M-w switch-client -n
 bind-key l last-window
 #bind R move-window -r ; display-message "Windows reordered..."

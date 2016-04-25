@@ -2,3 +2,4 @@
 /home/berserker/.byobu	40
 /home/berserker/.byobu	40
 /home/berserker/.byobu	40
+/home	40
