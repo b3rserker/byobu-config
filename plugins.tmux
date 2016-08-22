@@ -2,6 +2,7 @@ set-option -g @tpm_plugins '  \
   tmux-plugins/tpm            \
   tmux-plugins/tmux-resurrect \
   tmux-plugins/tmux-sidebar \
+  tmux-plugins/tmux-copycat \
   '
 run-shell '~/.byobu/tpm/tpm'
 
@@ -19,3 +20,6 @@ set -g @overwrite_option '@resurrect-overwrite'
 #bind-key -t vi-copy 'v' begin-selection
 #bind-key -t vi-copy 'y' copy-selection
 #set -g @yank_selection 'clipboard'
+
+# Copycat plugin
+
