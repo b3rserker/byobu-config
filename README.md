@@ -55,3 +55,28 @@ Konsole compatibility:
 What doesn't work:
 - Sharing X clipboard thru different byobu sessions (like another SSH byobu session)
 - Probably vim compatibility (maybe when SHIFT+F12 turns off Fx shortcuts?)
+
+# Prereqs
+- Install byobu from source or using package manager (e.g. yum/dnf install byobu)
+- Start byobu by default with terminal
+- Then run:
+
+$ byobu-enable
+
+$ exit
+
+# Installation
+
+$ export SOMEWHERE=<some_path>
+
+$ git clone https://github.com/b3rserker/byobu-config $SOMEWHERE
+
+$ ln -s $SOMEWHERE ~/.byobu
+
+# Configuration
+
+$ cd $SOMEWHERE
+
+# Run
+
+$ byobu
