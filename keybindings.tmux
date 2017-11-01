@@ -47,3 +47,8 @@ bind-key -n S-Left swap-window -t -1
 bind-key -n S-Right swap-window -t +1
 set -g prefix F12
 unbind-key -n C-a
+
+unbind-key -n S-C-M-W
+unbind-key -n S-C-M-w
+#bind-key -n M-f send "for i in {06..10}; do $i; done"; display-message "For cycle patternt inserted!"
+#bind-key -n M-h send " | while read -r line ; do echo \$line | awk '{print \$4}'; done;"; display-message "While patternt inserted!"
