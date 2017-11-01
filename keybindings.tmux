@@ -5,6 +5,7 @@ unbind-key -n S-C-M-Down
 unbind-key -n S-C-M-Right
 
 unbind-key -n F1
+bind-key -n S-F11 resize-pane -Z
 
 bind-key -n S-C-M-Up resize-pane -U
 bind-key -n S-C-M-Down resize-pane -D
